@@ -1,8 +1,8 @@
 # 🪙 Sistema Bancário Python: Controle Financeiro Simplificado
 
-## Descrição 
+## ✍🏻 Descrição 
 
-
+Esse código é um **sistema bancário simples**. Criado com fins educativos para o lab Criando um Sistema Bancário com Python do **Suzano - Python Developer** na **DIO(Digital Innovation One)**.
 
 ## ⚙️ Funcionalidades Principais
 
