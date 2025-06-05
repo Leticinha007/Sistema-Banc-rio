@@ -2,49 +2,63 @@
 
 ## ✍🏻 Descrição 
 
-Esse código é um **sistema bancário simples**. Criado com fins educativos para o lab Criando um Sistema Bancário com Python do **Suzano - Python Developer** na **DIO(Digital Innovation One)**.
+Este projeto é um sistema bancário robusto, orientado a objetos, desenvolvido com foco em aprendizado prático e estruturação profissional de código Python. Ele simula com fidelidade operações bancárias reais, permitindo a manipulação de contas, transações e histórico de forma segura, modular e escalável.
 
 ## ⚙️ Funcionalidades Principais
 
 - **Operações Financeiras:**
 
-Depósitos com registro detalhado (data/hora)
+✔️ Depósitos com rastreabilidade completa (data/hora)
 
-Saques com dupla verificação (saldo + limite diário)
+✔️ Saques com controle de limite diário e por valor
 
-Extratos completos com formatação profissional
+✔️ Histórico detalhado de transações com filtragem por tipo
 
-- **Controle de Acesso:**
+✔️ Suporte a múltiplas contas por cliente
 
-Login seguro com tratamento de erros
+✔️ Modelo de transações orientado por interface (Transacao)
 
-Diferenciação entre clientes e administradores
+- **Gerencia de Contas:**
 
-- **Persistência de Dados:**
+✔️ Conta Corrente com regras específicas de saque
 
-Armazenamento automático em JSON
+✔️ Criação de contas com método fábrica
 
-Recuperação de dados ao reiniciar o sistema
+✔️ Cliente pode possuir várias contas vinculadas
+
+✔️ Vinculação de cliente com autenticação de titularidade
+
+- **Histórico e Relatórios:**
+
+✔️ Armazenamento interno de transações via classe Historico
+
+✔️ Geração de relatórios filtráveis por tipo de transação
+
+✔️ Registro de transações usando padrão de projeto command-like
 
 ---
 
 ## 💾 Tecnologias Integradas
 
-- **Segurança Avançada:**
+- **Boas Práticas de Programação:**
 
-Hash de senhas com hashlib
+Uso de @property para encapsulamento de atributos
 
-Input protegido para dados sensíveis (getpass)
+Polimorfismo com classes abstratas (ABC)
+
+Separação de responsabilidades entre entidades (Cliente, Conta, Transação)
 
 - **Gerenciamento de Tempo:**
 
-Registro preciso de transações com datetime
+Marcação precisa de data/hora de cada operação com datetime
 
-Formatação uniforme de datas
+Formatação uniforme de dados para relatórios e extratos
 
 ---
 
 ## 🪄 Próximas Melhorias
-- Implementação de transferências PIX
-- Adição de contas poupança
-- Geração de relatórios gerenciais
+-  Implementação de transferências entre contas
+- Adição de sistema de autenticação com senha e perfil
+- Persistência de dados com SQLite ou JSON
+- Geração de extratos e relatórios analíticos em PDF
+- Interface de administração com painel de controle
