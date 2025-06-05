@@ -1,4 +1,4 @@
-# 🪙 Sistema Bancário Python: Controle Financeiro Simplificado
+# 🪙 Sistema Bancário Orientado a Objetos com Persistência em JSON
 
 ## ✍🏻 Descrição 
 
